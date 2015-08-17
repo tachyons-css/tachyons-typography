@@ -1,0 +1,45 @@
+{
+  "name": "tachyons-typography",
+  "version": "1.0.0",
+  "style": "tachyons-typography.css",
+  "homepage": "http://github.com/mrmrs/tachyons-typography",
+  "description": "Performance based css module.",
+  "keywords": [
+    "oocss",
+    "rework",
+    "css",
+    "rwd",
+    "design",
+    "tachyons",
+    "css performance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/tachyons-typography.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/tachyons-typography/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bl": "^0.9.4",
+    "gulp": "^3.8.11",
+    "gulp-basswork": "^0.1.0",
+    "gulp-minify-css": "^0.4.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-size": "^1.2.1",
+    "gulp-webserver": "^0.9.0",
+    "readable-stream": "^1.0.33",
+    "through2": "^0.6.3",
+    "vinyl-transform": "^1.0.0"
+  },
+  "scripts": {
+    "start": "gulp"
+  }
+}
