@@ -22,7 +22,7 @@
   text-overflow: ellipsis;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .measure-ns {
     max-width: 30em;
   }
