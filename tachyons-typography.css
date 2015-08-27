@@ -4,11 +4,11 @@
 
 */
 
-.measure {
+.measure  {
   max-width: 30em;
 }
 
-.indent {
+.indent   {
   text-indent: 1em;
   margin-top: 0;
   margin-bottom: 0;
@@ -22,17 +22,15 @@
   text-overflow: ellipsis;
 }
 
-@media screen and (min-width: 48em) {
-  .measure-ns {
+@media screen and (min-width: 48em){
+  .measure-ns  {
     max-width: 30em;
   }
-
-  .indent-ns {
+  .indent-ns   {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
-
   .truncate-ns {
     white-space: nowrap;
     overflow: hidden;
@@ -41,16 +39,12 @@
 }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .measure-m {
-    max-width: 30em;
-  }
-
-  .indent-m {
+  .measure-m  { max-width: 30em; }
+  .indent-m  {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
-
   .truncate-m {
     white-space: nowrap;
     overflow: hidden;
@@ -59,16 +53,12 @@
 }
 
 @media screen and (min-width: 64em) {
-  .measure-l {
-    max-width: 30em;
-  }
-
-  .indent-l {
+  .measure-l  { max-width: 30em; }
+  .indent-l  {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
-
   .truncate-l {
     white-space: nowrap;
     overflow: hidden;
