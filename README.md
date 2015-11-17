@@ -1,4 +1,4 @@
-# TACHYONS-TYPE-SCALE
+# TACHYONS-TYPOGRAPHY
 
 http://tachyons.io
 
@@ -6,51 +6,77 @@ Work In Progress. Pull requests and open issues welcome.
 
 ## Install
 ```
-npm install --save-dev tachyons-type-scale
+npm install --save-dev tachyons-typography
 ```
 or download the css on github and include in your project.
 
 ## The Code
 ```
 
-/* ==========================================================================
-   TYPE SCALE
-   ========================================================================== */
-.mega  { font-size: 4rem; }
-.f1    { font-size: 2rem; }
-.f2    { font-size: 1.5rem; }
-.f3    { font-size: 1.25rem; }
-.f4    { font-size: 1rem; }
-.f5,
-.small { font-size: .85rem; }
+/*
+   TYPOGRAPHY
+*/
 
-
-@include break(not-small){
- .mega-ns { font-size: 4rem; }
- .f1-ns {   font-size: 2rem; }
- .f2-ns {   font-size: 1.5rem; }
- .f3-ns {   font-size: 1.25em; }
- .f4-ns {   font-size: 1.25rem; }
- .f5-ns {   font-size: 1rem; }
- .f6-ns {   font-size: .85rem; }
+.measure  {
+  max-width: 30em;
 }
 
-@include break(medium) {
- .mega-m { font-size: 4rem; }
- .f1-m {   font-size: 2rem; }
- .f2-m {   font-size: 1.5rem; }
- .f3-m {   font-size: 1.25rem; }
- .f4-m {   font-size: 1rem; }
- .f5-m {   font-size: .85rem; }
+.indent   {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-@include break(large) {
- .mega-l { font-size: 4rem; }
- .f1-l   { font-size: 2rem; }
- .f2-l   { font-size: 1.5rem; }
- .f3-l   { font-size: 1.25rem; }
- .f4-l   { font-size: 1rem; }
- .f5-l   { font-size: .85rem; }
+/* Combine this class with a width to truncate text */
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (--breakpoint-not-small){
+  .measure-ns  {
+    max-width: 30em;
+  }
+  .indent-ns   {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .truncate-ns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .measure-m  { max-width: 30em; }
+  .indent-m  {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .truncate-m {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (--breakpoint-large) {
+  .measure-l  { max-width: 30em; }
+  .indent-l  {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 ```
 
