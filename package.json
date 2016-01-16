@@ -2,15 +2,15 @@
   "name": "tachyons-typography",
   "version": "2.0.1",
   "style": "tachyons-typography.css",
-  "homepage": "http://github.com/mrmrs/tachyons-typography",
+  "homepage": "http://github.com/tachyons-css/tachyons-typography",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-typography.git"
+    "url": "http://github.com/tachyons-css/tachyons-typography.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-typography/issues",
+    "url": "https://github.com/tachyons-css/tachyons-typography/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
