@@ -1,4 +1,4 @@
-# tachyons-typography 1.1.0
+# tachyons-typography 2.0.3
 
 Performance based css module.
 

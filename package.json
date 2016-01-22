@@ -1,18 +1,17 @@
 {
   "name": "tachyons-typography",
-  "version": "2.0.2",
-  "style": "tachyons-typography.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-typography",
+  "version": "2.0.3",
+  "style": "src/tachyons-typography.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-typography.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-typography/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-typography",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
