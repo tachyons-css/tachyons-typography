@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-279 | 12 | 28
+369 | 16 | 32
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,22 +61,29 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    TYPOGRAPHY
 
 */
+/* Measure is limited to ~75 characters */
 .measure { max-width: 30em; }
+/* Measure is limited to ~45 characters */
+.measure-narrow { max-width: 20em; }
+/* Book paragraph style - paragraphs are indented with no vertical spacing. */
 .indent { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 /* Combine this class with a width to truncate text */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media screen and (min-width: 48em) {
  .measure-ns { max-width: 30em; }
+ .measure-narrow-ns { max-width: 20em; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .measure-m { max-width: 30em; }
+ .measure-narrow-m { max-width: 20em; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
 @media screen and (min-width: 64em) {
  .measure-l { max-width: 30em; }
+ .measure-narrow-l { max-width: 20em; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
