@@ -1,10 +1,10 @@
-# tachyons-typography 2.0.3
+# tachyons-typography 2.1.1
 
 Performance based css module.
 
 #### Stats
 
-369 | 16 | 32
+393 | 20 | 36
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,8 +61,10 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    TYPOGRAPHY
 
 */
-/* Measure is limited to ~75 characters */
+/* Measure is limited to ~66 characters */
 .measure { max-width: 30em; }
+/* Measure is limited to ~80 characters */
+.measure-wide { max-width: 34em; }
 /* Measure is limited to ~45 characters */
 .measure-narrow { max-width: 20em; }
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
@@ -71,18 +73,21 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media screen and (min-width: 48em) {
  .measure-ns { max-width: 30em; }
+ .measure-wide-ns { max-width: 34em; }
  .measure-narrow-ns { max-width: 20em; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .measure-m { max-width: 30em; }
+ .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
 @media screen and (min-width: 64em) {
  .measure-l { max-width: 30em; }
+ .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
