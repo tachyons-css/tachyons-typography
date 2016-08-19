@@ -1,6 +1,6 @@
 {
   "name": "tachyons-typography",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "style": "src/tachyons-typography.css",
   "description": "Performance based css module.",
   "keywords": [
