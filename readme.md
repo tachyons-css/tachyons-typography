@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-464 | 24 | 40
+460 | 24 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -90,7 +90,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .small-caps { font-variant: small-caps; }
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .measure-ns { max-width: 30em; }
  .measure-wide-ns { max-width: 34em; }
  .measure-narrow-ns { max-width: 20em; }
@@ -98,7 +98,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .small-caps-ns { font-variant: small-caps; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
@@ -106,7 +106,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .measure-l { max-width: 30em; }
  .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
