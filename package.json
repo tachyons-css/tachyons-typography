@@ -19,8 +19,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "tachyons-cli": "^1.0.3",
-    "watch": "^0.19.1"
+    "tachyons-cli": "^1.0.9",
+    "watch": "^1.0.1"
   },
   "scripts": {
     "start": "npm run build:watch",
