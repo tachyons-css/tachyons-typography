@@ -1,6 +1,6 @@
 {
   "name": "tachyons-typography",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "style": "src/tachyons-typography.css",
   "main": "src/tachyons-typography.css",
   "description": "Performance based css module.",
@@ -20,7 +20,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "tachyons-cli": "^1.0.10",
+    "tachyons-cli": "^1.0.11",
     "watch": "^1.0.1"
   },
   "scripts": {
