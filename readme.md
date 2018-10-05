@@ -2,7 +2,7 @@
 
 Performance based css module.
 
-#### Stats
+### Stats
 
 460 | 24 | 40
 ---|---|---
